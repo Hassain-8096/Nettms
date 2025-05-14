@@ -1,0 +1,213 @@
+.nav-container{
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    
+}
+
+img{
+    height: 80px;
+    width: 1960px;
+}
+.main img{
+    max-width: 1300px;
+    height: 150px;
+
+
+}
+.text{
+    position: absolute;
+    color: white;
+    top: 50px;
+
+}
+.Edu{
+    text-align:center;
+    border-bottom:green;
+    
+}
+.Edu-des{
+    text-align:center;
+    justify-content: center;
+    flex-direction: row;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    
+    
+    .box1{
+        border-style: ridge;
+        border-top-color: green       
+        
+
+    }
+    .box2{
+        border-style:ridge;
+        border-top-color: green
+    }
+    .box3{
+        border-style: ridge;
+        border-top-color: green
+    }
+    .box4{
+        border-style: ridge;
+        border-top-color: green
+    }
+   
+    
+}
+.premium{
+    text-align: center;
+}
+.cost{
+    display: flex;
+justify-content: safe;
+    flex-direction: row;
+.box5{
+    border-style: ridge;
+    margin-right: 15px;
+}
+    .box6{
+        border-style: ridge;
+   
+}
+
+}
+
+.cost2{
+    display: flex;
+justify-content: safe;
+    flex-direction: row;
+    padding-top: 10px;
+.box7{
+    border-style: ridge;
+    margin-right: 15px;
+}
+    .box8{
+        border-style: ridge;
+   
+}
+
+}
+
+.pay1{
+    text-align:center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+
+}
+.pay-dec{
+    display: flex;
+
+    .box9{
+        border-style: ridge;
+        background-color: dimgray;
+    }
+    .box10{
+        border-style: ridge;
+        background-color: dimgray;
+    }
+    .box11{
+        border-style: ridge;
+    background-color: dimgray;
+    }
+
+
+}
+
+.courses{
+
+    padding-top: 50px;
+    padding-left: 100px;
+    display: flex;
+    border-style: ridge;
+    color: white;
+    background-color: green;
+    
+    .apply{
+       margin-top: 50px;
+       margin-right: 200px;
+       color: white;
+    background-color: green;
+    
+    }
+    .box12{
+         
+        margin-right: 300px;
+    }
+}
+.form1{
+    border-style: ridge;
+}
+
+.form1{
+    border-style: ridge;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: calc();
+        .contact-info{
+        background-color: black;
+        color: white;
+        margin-bottom: 200px;
+        margin-left: 50px;
+        justify-content: flex-start;
+
+        .schudule {
+            background-color: green;  
+            margin-top: 50px;
+        flex-direction: column;
+        margin-top: 30px;
+        }
+       
+    }
+   
+   
+    /* .contact-info, .schudule {
+        flex: 1; /* Right boxes take up equal space */
+        padding: 20px;
+        background-color: #f9f9f9;
+        border: 1px solid #ccc;
+        margin-bottom: 10px; /* Space between the two right boxes */
+    }
+
+
+    .contact-info {
+        margin-bottom: 10px; /* Space for the next box */
+    }
+
+    
+    .main{
+        height: 300px;
+    }
+.story{
+    text-align: center;
+}
+.still{
+    text-align: center;
+    margin: 10px;
+}
+.contact-container{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contact{
+    text-align: center;
+}
+.last{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+text-align: center;
+    text-wrap: 10px;
+
+    .trans{
+        color:blue;
+    }
+}
